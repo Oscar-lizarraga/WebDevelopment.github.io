@@ -1,33 +1,40 @@
+/*hay que dividir la hoja de estilos por 3 partes
+    Encabezado , cuerpo y footer. Como ? con comentarios para identicarlos mas rapido*/
+
+
+
 *{
     background-color: none;
     margin: 0;
     padding: 0;
-    box-sizing: border-box ;}
+    box-sizing: border-box;
+}
 
-ul#dosi{
-    display: inline-flex;
-    color: black;
+
+ul#menu{
     list-style-type: none;
-    padding: 0px;
-    border:3px ;    
-    width:150px;
-    font: 20px arial, sans-serif }
+    text-align: center;
+    font: 20px arial, sans-serif 
+}
 
-li#sdosi{
+li#menu_li{
     color: black;
     display: inline-flex;
-    background-color: none;
-    text-align:center;
-    text-decoration:none;
-    padding-top:5px;
-    padding-bottom:5px; 
-    } 
+} 
                 
-li#sdosi a:hover {
+li#menu_li a:hover {
     background-color:yellow; 
     color: white; 
-    text-align:center; 
-    text-decoration:none; }
+    text-decoration:none; 
+}
+
+
+/*Flight box*/
+#flight_box{
+    background-color: red;
+}
+
+
     
 .galeria{
     padding: 16px;
@@ -51,14 +58,13 @@ li#sdosi a:hover {
 
 .ofertas{
     display: flex;
-    overflow-y: auto;
+    flex-direction: column;
     padding: 16px;
 }
 
 .destino{
-  margin-right: 10px;
-  position: relative;
-
+    margin-right: 10px;
+    position: relative;
 }
  
 .destino img{
@@ -90,8 +96,8 @@ li#sdosi a:hover {
 }
 
 .cadena-hoteles{
-  margin-right: 10px;
-  position: relative;
+    margin-right: 10px;
+    position: relative;
 }
  
 .cadena-hoteles img{
@@ -113,4 +119,10 @@ li#sdosi a:hover {
 .hoteles-descripcion h4, .hoteles-descripcion h6,
 .hoteles-descripcion p {
     margin: 0;
+}
+
+
+.ofertas_abajo{
+    display: flex;
+    overflow-y: auto;
 }
