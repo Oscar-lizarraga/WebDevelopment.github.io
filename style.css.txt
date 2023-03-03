@@ -1,0 +1,115 @@
+*{background-color: none;
+margin: 0;
+padding: 0;
+box-sizing: border-box ;}
+
+ul#dosi{
+    display: inline-flex;
+    color: black;
+    list-style-type: none;
+    padding: 0px;
+    border:3px ;    
+    width:150px;
+    font: 20px arial, sans-serif }
+
+li#sdosi{
+    color: black;
+    display: inline-flex;
+    background-color: none;
+    text-align:center;
+    text-decoration:none;
+    padding-top:5px;
+    padding-bottom:5px; 
+    } 
+                
+li#sdosi a:hover {
+    background-color:yellow; 
+    color: white; 
+    text-align:center; 
+    text-decoration:none; }
+    
+.galeria{
+    padding: 16px;
+}    
+
+
+.lista-imagenes img{
+    width: 100%;
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+}
+
+.lista-imagenes{
+    display: flex;
+    overflow-y: auto;
+
+}
+
+.ofertas{
+    display: flex;
+    overflow-y: auto;
+    padding: 16px;
+}
+
+.destino{
+  margin-right: 10px;
+  position: relative;
+
+}
+ 
+.destino img{
+    width: 320px;
+    object-fit: cover;
+    height: 400px;
+
+}
+
+.destino-descripcion{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    width: 320px;
+
+}
+
+.destino-descripcion h4, .destino-descripcion h6,
+.destino-descripcion p {
+    margin: 0;
+}
+
+.hoteles{
+    display: flex;
+    overflow-y: auto;
+    padding: 16px;
+}
+
+.cadena-hoteles{
+  margin-right: 10px;
+  position: relative;
+}
+ 
+.cadena-hoteles img{
+    width: 100%;
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+}
+
+.hoteles-descripcion{
+    position:absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: #fff;
+    width: 520px;
+}
+
+.hoteles-descripcion h4, .hoteles-descripcion h6,
+.hoteles-descripcion p {
+    margin: 0;
+}
