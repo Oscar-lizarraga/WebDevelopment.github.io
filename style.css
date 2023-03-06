@@ -1,8 +1,6 @@
 /*hay que dividir la hoja de estilos por 3 partes
     Encabezado , cuerpo y footer. Como ? con comentarios para identicarlos mas rapido*/
 
-
-
 *{
     background-color: none;
     margin: 0;
@@ -10,33 +8,64 @@
     box-sizing: border-box;
 }
 
-
+/*Menu*/
 ul#menu{
     list-style-type: none;
-    text-align: center;
-    font: 20px arial, sans-serif 
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+    background-color: aliceblue;
 }
 
 li#menu_li{
-    color: black;
-    display: inline-flex;
+    float: left;
 } 
+li#menu_li a{
+    display: block;
+    text-align: center; 
+    text-decoration:none;
+    padding:14px 16px;
+}
                 
 li#menu_li a:hover {
-    background-color:yellow; 
-    color: white; 
+    background-color:#cc9900;
+    color: white;
+    text-align:center;
     text-decoration:none; 
 }
 
-
 /*Flight box*/
-#flight_box{
-    background-color: red;
+#menu-diferente{
+    width: 100%;
+    height: 200px; 
+    background-color: aliceblue;
+
 }
 
+#flight_box{
+    margin-left: 25px;
+    width: 700px;
+    height: 200px; 
+    background-color: lightskyblue;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
 
-    
-.galeria{
+.columna{
+    background-color: lightskyblue;
+    padding: 10px;
+}
+
+input#calendario{
+    background-color: lightblue;
+    margin: 10px;
+}
+
+/*Ofertas*/    
+
+/*.galeria{
     padding: 16px;
 }    
 
@@ -54,7 +83,7 @@ li#menu_li a:hover {
     display: flex;
     overflow-y: auto;
 
-}
+}*/
 
 .ofertas{
     display: flex;
@@ -89,6 +118,7 @@ li#menu_li a:hover {
     margin: 0;
 }
 
+/*hoteles*/
 .hoteles{
     display: flex;
     overflow-y: auto;
@@ -116,8 +146,7 @@ li#menu_li a:hover {
     width: 520px;
 }
 
-.hoteles-descripcion h4, .hoteles-descripcion h6,
-.hoteles-descripcion p {
+.hoteles-descripcion h2 {
     margin: 0;
 }
 

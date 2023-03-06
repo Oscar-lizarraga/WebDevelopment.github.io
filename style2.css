@@ -1,0 +1,38 @@
+.persona{
+    margin-right: 10px;
+    position: relative;
+    display: flex;
+    overflow-y: auto;
+    padding: 16px;
+    justify-content: center;
+ 
+}
+ 
+
+.circulo{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 100%;
+
+}
+
+.circulo > .imagen{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.nombre{
+    position:relative;
+    bottom: 0;
+    padding: 10px;
+    background-color:#fff;
+    justify-content:center;
+    line-height: 200px;
+
+}
+
+.nombre h2, .nombre p {
+    margin: 0;
+}
