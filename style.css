@@ -196,13 +196,33 @@ input#calendario{
     font-size: 14px;
 }
 
+.pie-pagina .grupo-1 .red-social .persona{
+    display: block;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .red-social .icono{
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .red-social .persona{
+    display: inline-flex;
+    margin: 10px;
+    align-items: center;
+    bottom: 0;
+}
+
 .pie-pagina .grupo-1 .red-social  a{
     bottom: 0;
     display: inline-block;
     text-decoration: none;
-    width: 45px;
-    height: 45px;
-
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    align-items: center;
 }
 
 
