@@ -1,3 +1,29 @@
+/*Menu*/
+ul#menu{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+li#menu_li{
+    float: left;
+} 
+li#menu_li a{
+    display: block;
+    text-align: center; 
+    text-decoration:none;
+    padding:14px 16px;
+}
+                
+li#menu_li a:hover {
+    background-color:#cc9900;
+    color: white;
+    text-align:center;
+    text-decoration:none; 
+}
+
 .persona{
     margin-right: 10px;
     position: relative;
@@ -35,4 +61,73 @@
 
 .nombre h2, .nombre p {
     margin: 0;
+}
+
+/*Pie de pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color:aliceblue;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 400px;
+    margin: 0;
+    padding: 0%;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    font-size: 14px;
+}
+
+.pie-pagina .grupo-1 .red-social .persona{
+    display: block;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .red-social .icono{
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .red-social .persona{
+    display: inline-flex;
+    margin: 10px;
+    align-items: center;
+    bottom: 0;
+}
+
+.pie-pagina .grupo-1 .red-social  a{
+    bottom: 0;
+    display: inline-block;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    align-items: center;
 }
