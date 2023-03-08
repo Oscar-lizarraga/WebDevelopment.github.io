@@ -195,8 +195,34 @@ input#calendario{
     overflow-y: auto;
 }
 
+
+
+footer{
+    display: block;
+}
+
+.footer_1{
+    display: inline-flex;
+}
+
+.footer_2{
+    margin: 20px;
+}
+
+.persona{
+    margin: 10px;
+    display: block;
+}
+
+.persona_datos{
+    display: inline-flex;
+}
+
+
+
+
 /*Pie de pagina*/
-.pie-pagina{
+/*.pie-pagina{
     width: 100%;
     background-color:aliceblue;
 }
@@ -262,7 +288,7 @@ input#calendario{
     height: 30px;
     line-height: 30px;
     align-items: center;
-}
+}*/
 
 
  
