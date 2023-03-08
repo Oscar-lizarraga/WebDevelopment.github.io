@@ -3,9 +3,198 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<div align="center">
+		<img src="img\inicio.png" height="228"> 
+	</div>
+	<title>hoteles</title>
+	<link rel="stylesheet" type="text/css"href="style.css">
 </head>
 <body>
+	 <!--Drop down menu-->
+	 <ul id="menu" > 
+		<li id="menu_li"><a href="index.html">Vuelos </a></li> 
+		<li id="menu_li"><a href="hotels.html">Hoteles</a></li> 
+		<li id="menu_li"><a href="cars.html">Autos</a></li> 
+		<li id="menu_li"><a href="index.html">Paquetes</a></li> 
+		<li id="menu_li"><a href="us.html">Nosotros</a></li> 
+	</ul> 
 
+	<!--Hotels box-->
+	<div class="menu-diferente2">
+		<div id="hotel_box">			
+			<div class="columnah">
+				<form>
+					<fieldset>
+						<label for="fname"> Destino / hotel:</label><br>
+						<input type="text" id="fname" name="fname" value="Destino / hotel"><br>
+				</form> <br>		
+			</div>
+			<div class="columnah">
+				<h3>Fechas</h3>
+				<p>Check in</p>
+				<input type="date" id="calendario" value="2023-02-23" min="2023-03-7" max ="2024-03-25" >
+				<p>Check <output></output></p>
+				<input type="date" id="calendario" value="2023-03-23" min="2023-03-7" max ="2024-03-25" >
+			</div>
+			<div class="columnah">
+				<label for="tentacles">Huespedes:</label>
+				<input type="number" id="pasajeros" name="pasajeros" min="1" max="8">
+			</div>
+			<div class="columnah">
+				<input type="submit" value="Buscar">
+			</div>
+		</div>
+	</div>
+
+	 <!--Ofertas-->
+	 <div class="ofertas">
+            
+		<div class="ofertas_arriba">
+			<h1>Contamos con las mejores ofertas</h1>
+		</div>
+
+		<div class="ofertas_abajo">
+			<div class="destino">
+				<img src="img\jamaica-d1.jpg" alt="Jamaica">
+				<div class="destino-descripcion">
+					<h2>Jamaica</h2>
+					<h4>Flexibilidad de cambios</h5>
+					<p>Hasta 25% de descuento</p>
+				</div>
+			</div>
+
+			<div class="destino">
+				<img src="img\cancun.jpg" alt="Cancun">
+				<div class="destino-descripcion">
+					<h2>Canc&uacute;n</h2>
+					<h4>Hasta 12 meses sin intereses</h4>
+					<p>Hasta 30% de descuento</p>
+				</div>
+			</div>
+
+			<div class="destino">
+				<img src="img\cartagena.jpg" alt="Cartagena">
+				<div class="destino-descripcion">
+					<h2>Cartagena</h2>
+					<h4>Vuelo + hotel </h4>
+					<p>Hasta 15% de descuento</p>
+				</div>
+			</div>
+		
+			<div class="destino">
+				<img src="img\caboSanLucas.jpg" alt="Cabo">
+				<div class="destino-descripcion">
+					<h2>Cabo San Lucas</h2>
+					<h4>Paquete familiar </h4>
+					<p>Hasta 10% de descuento</p>
+				</div>
+			</div>
+		</div>  <!--Cierre de ofertas_abajo -->
+
+	<!--Cierre de ofertas-->
+	</div> 
+	<!--Hoteles--> 
+	<h1>Convenios con hoteles</h1>
+	<div class="hoteles">
+			
+		<div class="cadena-hoteles">
+			<img src="img\hotel-hilton.jpg" alt="HILTON">
+			<div class="hoteles-descripcion" align="center">
+				<h2>Hilton</h2>
+			</div>
+		</div>
+		
+		<div class="cadena-hoteles">
+			<img src="img\hotel-nh.jpg" alt="NH">
+			<div class="hoteles-descripcion" align="center">
+				<h2>NH Hoteles</h2>
+			</div>
+		</div>
+		
+		<div class="cadena-hoteles">
+			<img src="img\hotel-riu.jpg" alt="RIU">
+			<div class="hoteles-descripcion" align="center">
+				<h2>RIU</h2>
+			</div>
+		</div>
+		
+		<div class="cadena-hoteles">
+			<img src="img\hotel-mayan.jpg" alt="Mayan Palace">
+			<div class="hoteles-descripcion" align="center">
+				<h2>Mayan Palace</h2>
+			</div>
+		</div>
+	</div>
 </body>
+<!--Pie de página-->
+<footer class="pie-pagina">
+	<div class="grupo-1">
+		<div class="box">
+			<figure>
+				<a href="">
+					<img src="img/logo.png" alt="Logo">
+				</a>                    
+			</figure>
+		</div>
+		<div class="box">
+			<h2>SOBRE NOSOTROS</h2>
+			<p>Somos un team bien padre, porfis compra con nosotros</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eligendi!</p>
+		</div>
+		<div class="box">
+			<h2>SIGUENOS</h2>
+			<div class="red-social">
+				<div class="persona">
+					<div class="icono">
+						<a href="https://instagram.com/lauu_bueno?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a>
+					</div>
+					<div class="nombre">
+						<p>Laura Bueno</p>
+					</div>
+				</div>
+				<div class="persona">
+					<div class="icono">
+						<a href="https://instagram.com/viann_cruzz?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a>
+					</div>
+					<div class="nombre" >
+						<p>Yuliana Cruz</p>
+					</div>
+				</div>
+				<div class="persona">
+					<div class="icono">
+						<a href="https://instagram.com/_pelayo_oscar?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a>
+					</div>
+					<div class="nombre" >
+						<p>Oscar Liz&aacute;rraga</p>
+					</div>
+				</div>
+				<div class="persona">
+					<div class="icono">
+						<a href="https://instagram.com/laura_832?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a>
+					</div>
+					<div class="nombre" >
+						<p>Laura Ram&iacute;rez</p>
+					</div>
+				</div>
+				<div class="persona">
+					<div class="icono">
+						<a href="https://instagram.com/elisa_valades?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a>
+					</div>
+					<div class="nombre" >
+						<p>Elisa Valades</p>
+					</div>
+				</div>
+				
+					
+		
+			
+			</div>
+		</div>
+		<div class="grupo-2">
+			<small> &copy; 2023 <b>CHIQUIVIAJES</b> - Todos los Derechos Reservados. </small>
+		</div>
+
+	</div>
+</footer>
+<!--Cierre de pie de página-->
 </html>
